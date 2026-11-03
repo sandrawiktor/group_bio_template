@@ -9,7 +9,7 @@
 <body>
 
 <header>
-    <h1>Meet Our Team</h1>
+    <h1>Meet The Code Niners</h1>
     <!-- Example team logo -->
     <img src="img/team-logo.png" alt="Team Logo" class="team-logo">
 
@@ -22,18 +22,30 @@
 
 <!-- Team bios section (default section) -->
 <div id="bios" class="container">
-    <!-- Each card represents an individual team member -->
-    <div class="card">
-        <h2>John Doe</h2>
-        <p>Frontend Developer</p>
+    <div class="card ryan-card">
+        <img src="img/ryan-avatar.jpeg" alt="Ryan Davis" style="width:100px; border-radius:50%;">
+        <h2>Ryan Davis</h2>
+        <p> Aspiring Ethical Hacker</p>
         <button onclick="toggleBio('bio1')">Show Bio</button>
-        <p id="bio1" class="bio">John is a skilled frontend developer with 5 years of experience in creating responsive web applications.</p>
+
+        <div id="bio1" class="bio">
+            <p>Ryan Davis is a Master's Cybersecurity student at UNCC.</p>
+            <a href="https://github.com/rdavi172" target="_blank">My GitHub</a>
+            <img src="img/python-logo.png" alt="Python Logo" style="width:50px;">
+        </div>
     </div>
-    <div class="card">
-        <h2>Jane Smith</h2>
-        <p>Backend Developer</p>
+
+    <div class="card jhovany-card">
+        <img src="img/jhovany-avatar.jpg" alt="Jhovany" style="width:100px; border-radius:50%;">
+        <h2>Jhovany Orellana</h2>
+        <p> Aspring Backend Software Engineer</p>
         <button onclick="toggleBio('bio2')">Show Bio</button>
-        <p id="bio2" class="bio">Jane is a backend developer specializing in server-side logic and database management.</p>
+
+        <div id="bio2" class="bio">
+            <p>Jhovany Orellana is a computer science student at UNCC.</p>
+            <a href="https://github.com/jhovanyorellana" target="_blank">My GitHub</a>
+            <img src="img/python-logo.png" alt="Python Logo" style="width:50px;">
+        </div>
     </div>
     <div class="card">
         <h2>Emily Johnson</h2>
@@ -46,8 +58,16 @@
 <!-- Team vision/mission statement section (hidden by default) -->
 <div id="vision" class="container" style="display: none;">
     <h2>Our Mission Statement</h2>
-    <p>We strive to create a collaborative, inclusive, and innovative environment where team members feel empowered to push boundaries and achieve excellence in their craft. Our mission is to deliver high-quality solutions that meet and exceed our clients' expectations.</p>
+    <p>We are Code Niners, a team of UNC Charlotte students learning to design and build software that solves real problems. We value clear communication, shared ownership, and writing code others can understand. Our goal is to deliver a reliable application while growing as engineers and teammates.</p>
+    <h2>Team Rules</h2>
+    <ol>
+        <li><strong>Contribute:</strong> Everyone will have a role in each assignment to share the work and reduce stress for the whole team.</li>
+        <li><strong>Stay connected:</strong> Communicate with the team through the group chat or by email.</li>
+        <li><strong>Speak up:</strong> Let the team know if you run into any challenges during the project.</li>
+        <li><strong>Respect each other:</strong> Treat every teammate with respect and resolve disagreements instead of holding grudges.</li>
+    </ol>
 </div>
+
 
 <script src="script.js"></script> <!-- Link to external JavaScript file -->
 

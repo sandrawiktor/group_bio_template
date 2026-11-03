@@ -88,3 +88,88 @@ button {
 button:hover {
     background: #0056b3;
 }
+/* Team Vision Style */
+
+/* Team Vision section */
+#vision {
+    background-color: #00422C;
+    color: #ffffff;
+    border: 3px solid #D4BC72;
+    border-radius: 12px;
+    padding: 30px;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+#vision h2 {
+    color: #D4BC72;
+    border-bottom: 2px solid #D4BC72;
+    padding-bottom: 8px;
+    margin-top: 25px;
+}
+
+#vision li {
+    margin-bottom: 10px;
+}
+
+#vision strong {
+    color: #D4BC72;
+}
+
+/* Ryan Custom Card */
+
+.ryan-card {
+    background-color: #121212;
+    background: linear-gradient(145deg, #1a0000, #0d0d0d);
+    color: #f5f5f5;
+    border: 2px solid #c0392b;
+    box-shadow: 0 0 12px rgba(255, 0, 0, 0.4);
+}
+
+.ryan-card h2{
+    color: #ff4d4d;
+}
+
+.ryan-card .bio{
+    color: #cccccc;
+}
+
+.ryan-card button{
+    background-color: #b30000;
+    color: #fff;
+}
+
+.ryan-card button:hover{
+    background-color: #7a0000;
+}
+
+.ryan-card a{
+    color: #ff6b6b;
+}
+
+/* Jhovany Custom Card  */
+/* Jhovany Custom Card  */
+.jhovany-card {
+    background-color: #1e1e24;
+    color: #ffffff;
+    border: 2px solid #007BFF;
+}
+
+.jhovany-card h2 {
+    color: #4da6ff;
+}
+
+.jhovany-card .bio {
+    color: #d1d1d1;
+}
+
+.jhovany-card button {
+    background-color: #4da6ff;
+    color: #000;
+    font-weight: bold;
+}
+
+.jhovany-card button:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
